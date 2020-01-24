@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="4dp">
+ <RelativeLayout
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     android:layout_margin="4dp">
+
+
+     <TextView
+         android:id="@+id/textview"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentTop="true"
+         android:layout_marginTop="13dp"
+         android:clickable="true"
+         android:text="Line1"
+         android:textColor="@android:color/black"
+         android:textSize="20sp"
+         android:textStyle="bold" />
+
+
+     <TextView
+         android:id="@+id/textview2"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentEnd="true"
+         android:layout_alignParentRight="true"
+         android:layout_marginStart="40dp"
+
+         android:layout_marginLeft="70dp"
+         android:layout_marginEnd="268dp"
+         android:layout_marginRight="268dp"
+         android:text="Line2"
+         android:textSize="15sp" />
+
+     <TextView
+         android:id="@+id/textviewte"
+         android:layout_width="35dp"
+         android:layout_height="26dp"
+         android:layout_alignParentEnd="true"
+         android:layout_alignParentRight="true"
+         android:layout_marginStart="80dp"
+
+         android:layout_marginLeft="70dp"
+         android:layout_marginEnd="181dp"
+         android:layout_marginRight="181dp"
+         android:text="tel"
+         android:textSize="15sp" />
+
+     <TextView
+         android:id="@+id/tip"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentTop="true"
+         android:layout_alignParentEnd="true"
+         android:layout_alignParentRight="true"
+         android:layout_marginTop="3dp"
+         android:layout_marginEnd="128dp"
+         android:layout_marginRight="128dp"
+         android:text="tipo" />
+
+     <TextView
+         android:id="@+id/open"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentEnd="true"
+         android:layout_alignParentRight="true"
+         android:layout_marginEnd="62dp"
+         android:layout_marginRight="62dp"
+         android:text="apert" />
+
+     <TextView
+         android:id="@+id/close"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentTop="true"
+         android:layout_alignParentEnd="true"
+         android:layout_alignParentRight="true"
+         android:layout_marginTop="21dp"
+         android:layout_marginEnd="251dp"
+         android:layout_marginRight="251dp"
+         android:text="chiusura" />
+
+     <TextView
+         android:id="@+id/stell"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentEnd="true"
+         android:layout_alignParentRight="true"
+         android:layout_marginEnd="0dp"
+         android:layout_marginRight="0dp"
+         android:text="stelle" />
+
+
+ </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
